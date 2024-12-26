@@ -1,0 +1,131 @@
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    max-width: 960px;
+    padding: 15px;
+    margin: 2%;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 7px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.plan{
+    padding: 10px;
+    margin: 15px;
+    background-color: white;
+    text-align: center;
+    min-width: 260px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+button{
+    height: 40px;
+    width: 90%;
+    border: none;
+    margin: 0px auto;
+}
+
+.free-btn, 
+.pro-plan-btn,
+.silver-plan-btn{
+    color: gray;
+    width: 80px;
+}
+
+.free-btn{
+    background-color: rgb(253, 228, 228blue);
+}
+.pro-plan-btn{
+    background-color:aliceblue;
+}
+.silver-plan-btn{
+    background-color: rgb(248, 231, 199);
+}
+
+.strat-btn-free{
+    background-color: lightcoral;
+}
+
+.strat-btn-pro{
+    background-color: steelblue;
+}
+
+.strat-btn-silver{
+    background-color: rgb(224, 178, 91);
+}
+
+.strat-btn-free,
+.strat-btn-pro,
+.strat-btn-silver{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.strat-btn-free:hover{
+    background-color: rgb(243, 87, 87);
+}
+
+.strat-btn-pro:hover{
+    background-color: blue;
+}
+
+.strat-btn-silver:hover{
+    background-color: rgb(247, 188, 79);
+}
+
+.strat-btn-free:hover,
+.strat-btn-pro:hover,
+.strat-btn-silver:hover{
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+}
+
+p{
+    color: gray;
+}
+
+small {
+    color: rgb(27, 27, 27);
+}
+
+.border {
+    padding: 13px;
+}
+
+.border-free{
+    border: 1px solid lightcoral;
+    color: lightcoral;
+}
+
+.border-pro{
+    border: 1px solid steelblue;
+    color: steelblue;
+}
+
+.border-silver{
+    border: 1px solid rgb(224, 178, 91);
+    color: rgb(224, 178, 91);
+}
+
+.price{
+    color: gray;
+}
+
+.popular{
+    box-shadow: 0.25px 50px -12px rgba(0, 0, 0, 0.25);
+}
